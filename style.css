@@ -1,0 +1,363 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;}
+a{
+    text-decoration: none;
+}
+div{
+    display: block;
+}
+.navbar{
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+    background-color: rgba(0,0,0,0.8);
+    position: fixed;
+    z-index: 5;
+}
+.navbar .nav_links{
+    list-style: none;
+    display: flex;
+    justify-content:center;
+    padding: 10px 0px;
+}
+.navbar .nav_links .nav_link{
+    padding: 0px 20px;
+}
+.navbar .nav_links .nav_link a{
+    text-decoration: none;
+    color: rgb(211, 211, 211);
+    font-size: 12px;
+    letter-spacing: 0.4px;
+}
+.navbar .nav_icon{
+    filter: invert(0.8);
+    width: 20px;
+}
+.main .section_top{
+    width: 100%;
+    text-align: center;
+    background-color: #f1efef;
+    padding: 12px 0px;
+    font-size: 14px;
+    letter-spacing: 0.3px;
+    display: inline-block;
+}
+.main .section_top a{
+    text-decoration: none;
+    color: rgb(105, 105, 248);
+}
+.main .homepage_section .iphone-13{
+    display: flex;
+    background-color: #fbfbfd;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+}
+.main .homepage_section .iphone-13 a{
+    text-decoration: none;
+}
+.main .homepage_section .headline{
+    font-size: 55px;
+    color: rgb(29, 29, 29);
+    text-align: center;
+}
+.main .homepage_section .subhead{
+    text-align: center;
+    font-size: 26px;
+    color: #000;
+    padding-top: 5px;
+}
+.main .homepage_section .cta_links{
+    margin-top: 15px;
+    text-align: center;
+}
+.main .homepage_section .cta_links a{
+    font-size: 20px;
+    color: rgb(105, 105, 248);
+}
+.cta_links a:hover{
+    text-decoration:underline;
+}
+.main .homepage_section .iphone-13 .unit_image{
+    margin-top: 36px;
+    width: 100%;
+    text-align: center;
+}
+.main .homepage_section .iphone-13 .unit_image img{  
+    width: 60%;
+}
+.main .homepage_section .upheadline{
+    text-align: center;
+    font-size: 22px;
+    color: #1d1d1f;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.main .homepage_section .iphone-se{
+    margin-top: 10px;
+    padding-top: 40px;
+    background-color: #fbfbfd;
+}
+.main .homepage_section .iphone-se .headline img{
+    width: 15%;
+}
+.main .homepage_section .iphone-se .unit_image img{
+    width: 90%;
+}
+.main .homepage_section .ipad_air{
+    display: flex;
+    flex-wrap: wrap;
+    height: 742px;
+}
+.main .homepage_section .ipad_air .unit_text_wrapper{
+    padding-top: 340px;
+    padding-left: 290px;    
+}
+.main .homepage_section .ipad_air .unit_text_wrapper .headline img{
+    width: 200px;
+}
+.main .homepage_section .ipad_air .unit_text_wrapper .headline{
+    font-size: 0px;
+}
+.main .homepage_section .ipad_air .unit_text_wrapper .subhead{
+    color: white;
+    padding-top: 0px;
+}
+.main .homepage_section .ipad_air .unit_image_wrapper{
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+    position: absolute;
+}
+.main .homepage_section .ipad_air .unit_image_wrapper .ipad_air_images{
+    width: 3008px;
+    height: 624px;
+    background-repeat: no-repeat;
+    background-size: 3008px 624px;
+    background-image: url(images/ipad_air.jpg);
+}
+.main .homepage_section .ipad_air .unit_image_wrapper .unit_image{
+    position: absolute;
+    z-index: -1;
+    bottom: 0px;
+    margin: 0;
+    padding: 0;
+    left: calc(50% + 0px);
+    transform: translateX(-50%);
+}
+
+/*                                               */
+figure {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 10px;
+    margin-inline-end: 40px;
+}
+.homepage_section2 .modual{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 100%;
+}
+.homepage_section2 .modual .modual_content{
+    overflow: visible;
+}
+.homepage_section2 .modual .unit-image-wrapper{
+    z-index: -1;
+}
+.homepage_section2 .modual .unit-image-wrapper .modual_images{
+    background-position:bottom center;
+    bottom: 0;
+    pointer-events: none;
+    width: 98%;
+    height: 580px;
+    background-size: 1262px 580px;
+    background-repeat: no-repeat;
+    position: relative; 
+}
+.homepage_section2 .modual .unit-image-wrapper .m_c_1_img{
+    background-image: url(images/modual1.jpg);
+}
+.homepage_section2 .modual .unit-image-wrapper .m_c_2_img{
+    background-image: url(images/iwatch.jpg);
+    background-color: #fbfbfd;
+    width: 98%;
+    height: 580px;
+    background-size: 616px 590px;
+}
+.homepage_section2 .modual .unit-image-wrapper .m_c_3_img{
+    background-image: url(images/mac_studio.jpg);
+    background-color: #fbfbfd;;
+    width: 98%;
+    height: 580px;
+    background-size: 716px 690px;
+}
+.homepage_section2 .modual .unit-image-wrapper .m_c_4_img{
+    background-image: url(images/modual_iphone.jpg);
+    background-color: #fbfbfd;;
+    width: 98%;
+    height: 580px;
+    background-size: 1262px 580px;
+}
+.homepage_section2 .modual .unit-image-wrapper .m_c_5_img{
+    background-image: url(images/stdio_display.jpg);
+    background-color: #fbfbfd;;
+    width: 98%;
+    height: 580px;
+    background-size: 1262px 580px;
+}
+.homepage_section2 .modual .unit-image-wrapper .m_c_6_img{
+    background-image: url(images/modual6.jpg);
+    background-color: #fbfbfd;;
+    width: 98%;
+    height: 580px;
+    background-size:  1262px 580px;
+
+}
+.homepage_section2 .modual .unit-text-wrapper{
+    position:absolute;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    height: 79%;
+    width: 50%;
+    justify-content: end;
+    align-items: center;
+    padding: 60px 132px;
+    text-align: center;
+}
+.homepage_section2 .modual .modual_uptext{
+    justify-content: start;
+}
+
+.homepage_section2 .modual .unit-text-wrapper h4 img{
+    width: 100%;
+}
+.homepage_section2 .modual #iwatch_id .unit-text-wrapper h4 img {
+    width: 141px;
+}
+.homepage_section2 .modual .unit-text-wrapper p{
+    color: white;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+.homepage_section2 .modual .unit-text-wrapper .dark{
+    color: #000;
+}
+.homepage_section2 .modual .cta_links .cta_link{
+    font-size: 18px;
+    color:#1e87e9;
+}
+.homepage_section2 .modual #tvstream_id .cta_links .cta_link {
+    color: white;
+}
+.homepage_section2 .modual .unit-text-wrapper h1{
+    font-size: 40px;
+}
+.homepage_section2 .modual .unit-text-wrapper .modual6_logo{
+    margin: 14px 0px;
+    width: 400px;
+}
+.homepage_section2 .modual .unit-text-wrapper .modual6_logo1{
+    justify-content: start;
+}
+.homepage_section2 .modual .unit-text-wrapper .play_btn{
+    width: 14px;
+    filter: invert(1);
+    margin: -1px 0px;
+    margin-left: 3px;
+}
+
+/*           Footer                  */
+
+footer{
+    background-color: #f5f5f7;
+    padding: 20px 0;
+}
+footer .foot_content{
+    margin: 0 18%;
+}
+footer .foot_content .foot_note ul{
+    list-style: none;
+    margin: 0;
+}
+footer .foot_content .foot_note ul li{
+    padding-bottom: 0.8em;
+    font-size: 13px;
+    color: #6e6e73;
+}
+footer .foot_content .foot_note ul li a{
+    color: #6e6e73;
+}
+.foot_nav{
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 13px;
+}
+.foot_nav .foot_colum {
+    flex-basis: 25%;
+    margin-left: 5px;
+}
+.foot_nav .foot_colum .foot_colum_section_title {
+    color: #1d1d1f;
+    font-size: 12px;
+    line-height: 1.33;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-weight: 600;
+}
+.foot_nav .foot_colum_section ~ .foot_colum_section{
+    padding-top: 20px;
+}
+.foot_nav .foot_colum .foot_colum_section_list {
+    list-style: none;
+}
+.foot_nav .foot_colum .foot_colum_section_item{
+    padding: 5px 0;
+}
+.foot_nav .foot_colum .foot_colum_section_link{
+    color: #6e6e73;
+}
+.foot_nav .foot_colum .foot_colum_section_link:hover{
+    text-decoration: underline;
+}
+.foot_content .bottom_foot{
+    padding-top: 10px;
+    font-size: 12px;
+    color: #6e6e73;
+}
+.foot_content .bottom_foot .bottom_foot_shop{
+    padding: 10px 0;
+}
+.foot_content .bottom_foot .bottom_foot_city{
+    color: #6e6e73;
+    float: right;
+    padding: 10px 0px;
+}
+.foot_content .bottom_foot .bottom_foot_city_name{
+    color: #6e6e73;
+}
+.foot_content .bottom_foot .bottom_foot_city_name:hover{
+    text-decoration: underline;
+}
+.foot_content .bottom_foot .bottom_foot_legal{
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+.foot_content .bottom_foot .bottom_foot_legal_links{
+    padding: 0px 20px;
+}
+.foot_content .bottom_foot .bottom_foot_legal_link{
+    border-right: #d2d2d7 1px solid;
+    padding: 0 5px;
+    color: #6e6e73;
+}
+.foot_content .bottom_foot .bottom_foot_legal_link:hover{
+    text-decoration: underline;
+}
+
