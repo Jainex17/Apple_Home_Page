@@ -35,6 +35,9 @@ div{
     filter: invert(0.8);
     width: 20px;
 }
+.main{
+    padding-top: 45px;
+}
 .main .section_top{
     width: 100%;
     text-align: center;
