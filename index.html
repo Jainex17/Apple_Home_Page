@@ -10,12 +10,21 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     <title>Apple</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediastyle.css">
     <link rel="icon" href="images/apple_icon.svg">
 </head>
 
 <body>
     <nav class="navbar">
-        <ul class="nav_links">
+        <div class="nav_header">
+            <div class="nav_header_link"><a href="index.html">&nbsp;
+                <img src="images/apple_icon.svg" alt="apple_icon" class="nav_icon"></a>
+            </div>
+            <div class="nav_header_link">
+                <img src="images/menu_icon.svg" alt="menu_icon" class="nav_icon" onclick="Menudisplay()">
+            </div>
+        </div>
+        <ul class="nav_links" id="nav_items">
             <li class="nav_link">
                 <a href="index.html"><img src="images/apple_icon.svg" alt="apple_icon" class="nav_icon"></a>
             </li>
@@ -429,6 +438,12 @@
             </section>
         </div>
     </footer>
+    <script>
+        var menu=document.getElementById("nav_items");
+        function Menudisplay(){
+            menu.classList.toggle("nav_show");
+        }
+    </script>
 </body>
 
 </html>

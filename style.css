@@ -16,6 +16,10 @@ div{
     position: fixed;
     z-index: 5;
 }
+.navbar .nav_header{
+    display: none;
+    width: 100%;
+}
 .navbar .nav_links{
     list-style: none;
     display: flex;

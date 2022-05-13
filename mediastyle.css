@@ -1,0 +1,39 @@
+@media only screen and (max-width: 769px) {
+    .navbar{
+        width: 100%;
+        position: relative;
+    }
+    .navbar .nav_header{
+        padding: 10px 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-self: right;
+        justify-content: space-between;
+    }
+    .navbar .nav_header .nav_header_link img{
+        width: 30px;
+        cursor: pointer;
+    }
+    .navbar .nav_header_link:first-child{
+        padding: 0 10px;
+    }
+    .navbar .nav_header_link:last-child{
+        padding: 0 20px;
+    }
+    .navbar .nav_links{
+        flex-direction: column;
+        align-items: center;
+        height: 0px;
+        transition: ease 0.4s height;
+        overflow: hidden;
+        padding: 0;
+        margin: 0;
+    }
+    .navbar .nav-show{
+        height: 300px;
+    }
+    .main{
+        padding: 0;
+    }
+}
