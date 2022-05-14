@@ -35,5 +35,101 @@
     }
     .main{
         padding: 0;
+    }     
+    .main .homepage_section .iphone-13 .unit_image img{  
+        width: 100%;
+    }
+    .main .homepage_section .headline{
+        font-size: 35px;
+    }
+    .main .homepage_section .subhead{
+        font-size: 20px;
+    }
+    .main .homepage_section .cta_links a{
+        font-size: 15px;
+    }
+    .main .homepage_section .iphone-13 .unit_image{
+        margin-top: 26px;
+    }    
+    .main .homepage_section .iphone-se{
+        padding-top:10px;
+    }
+    .main .homepage_section .upheadline {
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+    .main .homepage_section .iphone-se .headline img{
+        width: 30%;
+    }
+    .main .homepage_section .iphone-se .unit_image img {
+        width: 100%;
+    }
+    .main .homepage_section .ipad_air {
+        height: 544px;
+        justify-content: center;
+    }
+    .main .homepage_section .ipad_air .unit_text_wrapper {
+        padding: 50px 0;
+        margin: 0;
+    }
+    .main .homepage_section .ipad_air .unit_text_wrapper .headline img {
+        width: 110px;
+    }
+    .main .homepage_section .ipad_air .unit_text_wrapper .subhead {
+        font-size: 18px;
+        font-weight:100;
+        padding-top: 10px;
+    }
+    .main .homepage_section .cta_links {
+        margin-top: 10px;
+    }
+    .main .homepage_section .ipad_air .unit_image_wrapper .ipad_air_images {
+        width: 734px;
+        height:737px;
+        background-repeat: no-repeat;
+        background-size: 714px 528px;
+        background-image: url(images/ipad_air_res.jpg);
+    }
+}
+@media only screen and (max-width: 769px) {
+    .homepage_section2 .modual{
+        grid-template-columns: 100%;
+    }
+    .homepage_section2 .modual .unit-text-wrapper {
+        height: 100%;
+        width: 100%;
+        padding: 40px 60px;
+        text-align: center;
+        justify-content: start;
+    }
+    .homepage_section2 .modual .unit-text-wrapper .headline{
+        width: 10rem;
+    }
+    .homepage_section2 .modual .unit-text-wrapper .subhead{
+        font-size: 17px;
+    }
+    .homepage_section2 .modual .unit-text-wrapper .cta_link{
+        font-size: 18px;
+    }
+    figure{
+        margin: 0;
+        padding: 0;
+    }
+    #wwdc22_id .unit-text-wrapper{
+        justify-content: end;
+        height: 70%;
+    }
+    .homepage_section2 .modual .unit-image-wrapper .m_c_1_img {
+        background-image: url(images/modual1_res.jpg);
+        width: 100%;
+        height: 518px;
+        background-size: 734px 548px;
+    }
+    .homepage_section2 .modual .unit-image-wrapper .m_c_2_img {
+        background-image: url(images/iwatch_res.jpg);
+        background-color: #fbfbfd;
+        width: 100%;
+        height: 518px;
+        background-size: 734px 548px;
     }
 }
