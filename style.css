@@ -139,11 +139,12 @@ div{
     position: absolute;
 }
 .main .homepage_section .ipad_air .unit_image_wrapper .ipad_air_images{
-    width: 3008px;
+    width: 100%;
     height: 624px;
-    background-repeat: no-repeat;
     background-size: 3008px 624px;
     background-image: url(images/ipad_air.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .main .homepage_section .ipad_air .unit_image_wrapper .unit_image{
     position: absolute;
@@ -209,7 +210,7 @@ figure {
     background-size: 1262px 580px;
 }
 .homepage_section2 .modual .unit-image-wrapper .m_c_5_img{
-    background-image: url(images/stdio_display.jpg);
+    background-image: url(images/studio_display.jpg);
     background-color: #fbfbfd;;
     width: 98%;
     height: 580px;
