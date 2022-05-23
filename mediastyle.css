@@ -130,17 +130,30 @@
     }
     .homepage_section2 .modual .unit-image-wrapper .m_c_2_img {
         background-image: url(images/iwatch_res.jpg);
-        background-color: #fbfbfd;
         width: 100%;
         height: 518px;
         background-size: 734px 548px;
     }
     .homepage_section2 .modual .unit-image-wrapper .m_c_3_img {
         background-image: url(images/mac_studio_res.jpg);
-        background-color: #fbfbfd;
         width: 100%;
         height: 518px;
         background-size: 747px 548px;
+    }
+    .homepage_section2 .modual .unit-image-wrapper .m_c_4_img {
+        width: 100%;
+        height: 430px;
+        background-size: 631px 290px;
+    }
+    .homepage_section2 .modual .unit-image-wrapper .m_c_5_img {
+        width: 100%;
+        height: 530px;
+        background-size: 731px 390px;
+    }
+    .homepage_section2 .modual .unit-image-wrapper .m_c_6_img {
+        width: 100%;
+        height: 518px;
+        background-size: 1151px 513px;
     }
     /*    footer     */
     footer .foot_content {
