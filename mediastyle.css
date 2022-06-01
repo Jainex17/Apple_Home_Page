@@ -36,6 +36,9 @@
     .main{
         padding: 0;
     }     
+    .main .section_top{
+        padding: 15px 21px;
+    }
     .main .homepage_section .iphone-13 .unit_image img{  
         width: 100%;
     }
@@ -117,7 +120,7 @@
     }
     #wwdc22_id .unit-text-wrapper{
         justify-content: end;
-        height: 76%;
+        height: 80%;
     }
     .homepage_section2{
         margin-top: 15px;
@@ -155,7 +158,13 @@
         height: 518px;
         background-size: 1151px 513px;
     }
-    /*    footer     */
+    #tvstream_id .unit-text-wrapper{
+        justify-content: end;
+        height: 80%;
+    }
+}
+/*          footer         */
+@media only screen and (max-width: 769px) {
     footer .foot_content {
         margin: 0 10px;
     }
@@ -165,6 +174,7 @@
     }
     .foot_nav {
         font-size: 11px;
+        flex-direction: column;
     }
     .foot_content .bottom_foot .bottom_foot_city {
         float: unset;
