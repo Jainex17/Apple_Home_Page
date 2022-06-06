@@ -306,6 +306,9 @@ footer .foot_content .foot_note ul li a{
     padding-bottom: 20px;
     font-size: 13px;
 }
+.foot_btn{
+    display: none;
+}
 .foot_nav .foot_colum {
     flex-basis: 25%;
     margin-left: 5px;
