@@ -15,15 +15,23 @@
 </head>
 
 <body>
-    <nav class="navbar">
+    <header>
+    <nav>
+    <div class="navbar">
         <div class="nav_header">
+            <div class="nav_header_link">
+                <img src="images/menu_icon.svg" alt="menu_icon" class="nav_icon" onclick="Menudisplay()">
+            </div>
             <div class="nav_header_link"><a href="index.html">&nbsp;
                 <img src="images/apple_icon.svg" alt="apple_icon" class="nav_icon"></a>
             </div>
             <div class="nav_header_link">
-                <img src="images/menu_icon.svg" alt="menu_icon" class="nav_icon" onclick="Menudisplay()">
+                <img src="images/shopping_bag_icon.svg" alt="bag_icon" class="nav_icon">
             </div>
+            
+            
         </div>
+
         <ul class="nav_links" id="nav_items">
             <li class="nav_link">
                 <a href="index.html"><img src="images/apple_icon.svg" alt="apple_icon" class="nav_icon"></a>
@@ -41,9 +49,26 @@
             <li class="nav_link"><a href="#"><img src="images/search_icon.svg" alt="search icon" class="nav_icon"></a>
             </li>
             <li class="nav_link"><a href="#"><img src="images/shopping_bag_icon.svg" alt="shoping bag"
-                        class="nav_icon"></a></li>
+                        class="nav_icon"></a>
+            </li>
         </ul>
+    </div>
+    <div class="mb-dropnavbar">
+        <ul class="m-nav_links" id="m-nav_items">
+            <li class="m-nav_link"><a href="#">Store</a></li>
+            <li class="m-nav_link"><a href="#">Mac</a></li>
+            <li class="m-nav_link"><a href="#">iPad</a></li>
+            <li class="m-nav_link"><a href="#">iPhone</a></li>
+            <li class="m-nav_link"><a href="#">Watch</a></li>
+            <li class="m-nav_link"><a href="#">AirPods</a></li>
+            <li class="m-nav_link"><a href="#">TV & Home</a></li>
+            <li class="m-nav_link"><a href="#">Only on Apple</a></li>
+            <li class="m-nav_link"><a href="#">Accessories</a></li>
+            <li class="m-nav_link"><a href="#">Suport</a></li>
+        </ul>
+    </div>
     </nav>
+    </header>
     <main class="main" role="main">
         <div class="section_top">
             <span>Get No Cost EMI for 3 or 6 months with qualifying Credit Cards from most leading banks.</span>
@@ -439,11 +464,24 @@
         </div>
     </footer>
     <script>
-        var menu=document.getElementById("nav_items");
+        var menu=document.querySelector(".mb-dropnavbar");
+        let nav=document.querySelector("body");
         function Menudisplay(){
-            menu.classList.toggle("nav_show");
+            nav.classList.toggle("nav-active");
         }
     </script>
+    <!--<script>
+        var foot=document.querySelectorAll('.foot_colum_section_label');
+        foot.forEach(item=>{
+            item.addEventListener('click',footmenu);
+        });
+
+        function footmenu(){
+            console.log(foot);
+            foot.classList.toggle("foot_btn");
+            
+        }
+    </script>-->
 </body>
 
 </html>

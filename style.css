@@ -2,9 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Lato', sans-serif;}
+    font-family: 'Lato', sans-serif;
+}
 a{
     text-decoration: none;
+}
+ul{
+    list-style: none;
 }
 div{
     display: block;
@@ -20,6 +24,12 @@ div{
     display: none;
     width: 100%;
 }
+.navbar .nav_header .nav_header_link:last-child img{
+    font-size: 10px;
+}
+/* .navbar .nav_links .nav_icon:last-child{
+    filter: unset;    
+} */
 .navbar .nav_links{
     list-style: none;
     display: flex;
@@ -171,6 +181,7 @@ figure {
 }
 .homepage_section2 .modual .modual_content{
     overflow: visible;
+    padding: 17px 0;
 }
 .homepage_section2 .modual .unit-image-wrapper{
     z-index: -1;
@@ -305,9 +316,6 @@ footer .foot_content .foot_note ul li a{
     padding-top: 20px;
     padding-bottom: 20px;
     font-size: 13px;
-}
-.foot_btn{
-    display: none;
 }
 .foot_nav .foot_colum {
     flex-basis: 25%;
