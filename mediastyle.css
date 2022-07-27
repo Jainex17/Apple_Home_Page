@@ -28,6 +28,7 @@
     display: none;
   }
   .mb-dropnavbar{
+    height: 0;
     transform: translateY(-600px);
     transition: .1s ease-in transform;
     position:absolute;

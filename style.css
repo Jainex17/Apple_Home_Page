@@ -45,6 +45,10 @@ div{
     font-size: 12px;
     letter-spacing: 0.4px;
 }
+.mb-dropnavbar{
+    height: 0;
+    overflow: hidden;
+}
 .navbar .nav_icon{
     filter: invert(0.8);
     width: 20px;
